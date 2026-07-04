@@ -14,14 +14,14 @@
 
 ## 🚀 Installation options
 
-Install ThingsBoard [on-premises](https://thingsboard.io/docs/user-guide/install/installation-options/?ceInstallType=onPremise) or use [ThingsBoard Cloud](https://thingsboard.io/installations/).
+Install HAOBO ACH [on-premises](https://thingsboard.io/docs/user-guide/install/installation-options/?ceInstallType=onPremise) or use [HAOBO ACH Cloud](https://thingsboard.io/installations/).
 
-## 💡 Getting started with ThingsBoard
+## 💡 Getting started with HAOBO ACH
 
-Check out our [Getting Started guide](https://thingsboard.io/docs/getting-started-guides/helloworld/) or [watch the video](https://www.youtube.com/watch?v=80L0ubQLXsc) to learn the basics of ThingsBoard and create your first dashboard! You will learn to:
+Check out our [Getting Started guide](https://thingsboard.io/docs/getting-started-guides/helloworld/) or [watch the video](https://www.youtube.com/watch?v=80L0ubQLXsc) to learn the basics of HAOBO ACH and create your first dashboard! You will learn to:
 
-* Connect devices to ThingsBoard
-* Push data from devices to ThingsBoard
+* Connect devices to HAOBO ACH
+* Push data from devices to HAOBO ACH
 * Build real-time dashboards
 * Create a Customer and assign the dashboard with them.
 * Define thresholds and trigger alarms
@@ -99,7 +99,7 @@ Check out our [Getting Started guide](https://thingsboard.io/docs/getting-starte
 
 ## ⚙️ Powerful IoT Rule Engine
 
-ThingsBoard allows you to create complex [Rule Chains](https://thingsboard.io/docs/user-guide/rule-engine-2-0/re-getting-started/) to process data from your devices and match your application specific use cases.
+HAOBO ACH allows you to create complex [Rule Chains](https://thingsboard.io/docs/user-guide/rule-engine-2-0/re-getting-started/) to process data from your devices and match your application specific use cases.
 
 [![IoT Rule Engine](https://github.com/user-attachments/assets/43d21dc9-0e18-4f1b-8f9a-b72004e12f07 "IoT Rule Engine")](https://thingsboard.io/docs/user-guide/rule-engine-2-0/re-getting-started/)
 
@@ -111,7 +111,7 @@ ThingsBoard allows you to create complex [Rule Chains](https://thingsboard.io/do
 
 ## 📦 Real-Time IoT Dashboards
 
-ThingsBoard is a scalable, user-friendly, and device-agnostic IoT platform that speeds up time-to-market with powerful built-in solution templates. It enables data collection and analysis from any devices, saving resources on routine tasks and letting you focus on your solution’s unique aspects. See more our Use Cases [here](https://thingsboard.io/iot-use-cases/).
+HAOBO ACH is a scalable, user-friendly, and device-agnostic IoT platform that speeds up time-to-market with powerful built-in solution templates. It enables data collection and analysis from any devices, saving resources on routine tasks and letting you focus on your solution’s unique aspects. See more our Use Cases [here](https://thingsboard.io/iot-use-cases/).
 
 [**Smart energy**](https://thingsboard.io/use-cases/smart-energy/)
 

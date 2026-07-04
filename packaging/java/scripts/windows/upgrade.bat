@@ -31,13 +31,13 @@ java -cp "%jarfile%" -Dloader.main=org.thingsboard.server.ThingsboardInstallAppl
                     org.springframework.boot.loader.launch.PropertiesLauncher
 
 if errorlevel 1 (
-   @echo ThingsBoard upgrade failed!
+   @echo HAOBO ACH upgrade failed!
    POPD
    exit /b %errorlevel%
 )
 POPD
 
-@ECHO ThingsBoard upgraded successfully!
+@ECHO HAOBO ACH upgraded successfully!
 
 GOTO END
 

@@ -1,5 +1,5 @@
 {
-  "title": "ThingsBoard IoT Gateways",
+  "title": "HAOBO ACH IoT Gateways",
   "image": "tb-image;/api/images/system/gateway-dashboard.png",
   "mobileHide": false,
   "mobileOrder": 6,
@@ -8967,6 +8967,6 @@
       "dashboardCss": ""
     }
   },
-  "name": "ThingsBoard IoT Gateways",
+  "name": "HAOBO ACH IoT Gateways",
   "resources": null
 }

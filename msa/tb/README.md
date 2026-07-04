@@ -1,10 +1,10 @@
-# ThingsBoard single docker images 
+# HAOBO ACH single docker images 
 
-This project provides the build for the ThingsBoard single docker images.
+This project provides the build for the HAOBO ACH single docker images.
 
-* `thingsboard/tb` - single instance of ThingsBoard with embedded HSQLDB database.
-* `thingsboard/tb-postgres` - single instance of ThingsBoard with PostgreSQL database.
-* `thingsboard/tb-cassandra` - single instance of ThingsBoard with Hybrid PostgreSQL (entities) and Cassandra (timeseries) database.
+* `thingsboard/tb` - single instance of HAOBO ACH with embedded HSQLDB database.
+* `thingsboard/tb-postgres` - single instance of HAOBO ACH with PostgreSQL database.
+* `thingsboard/tb-cassandra` - single instance of HAOBO ACH with Hybrid PostgreSQL (entities) and Cassandra (timeseries) database.
 
 ## Running
 
@@ -27,13 +27,13 @@ $ docker run -it -p 9090:9090 -p 1883:1883 -p 5683:5683/udp  -p 5685:5685/udp -p
 Where: 
     
 - `docker run`              - run this container
-- `-it`                     - attach a terminal session with current ThingsBoard process output
+- `-it`                     - attach a terminal session with current HAOBO ACH process output
 - `-p 9090:9090`            - connect local port 9090 to exposed internal HTTP port 9090
 - `-p 1883:1883`            - connect local port 1883 to exposed internal MQTT port 1883    
 - `-p 5683:5683`            - connect local port 5683 to exposed internal COAP port 5683 
 - `-p 5685:5685`            - connect local port 5685 to exposed internal COAP port 5685 (lwm2m) 
 - `-p 5686:5686`            - connect local port 5686 to exposed internal COAPS port 5686 (lwm2m) 
-- `-v ~/.mytb-data:/data`   - mounts the host's dir `~/.mytb-data` to ThingsBoard DataBase data directory
+- `-v ~/.mytb-data:/data`   - mounts the host's dir `~/.mytb-data` to HAOBO ACH DataBase data directory
 - `--name mytb`             - friendly local name of this machine
 - `thingsboard/tb`          - docker image, can be also `thingsboard/tb-postgres` or `thingsboard/tb-cassandra`
 
@@ -51,7 +51,7 @@ Where:
 > $ VBoxManage controlvm "default" natpf1 "tcp-port5683,tcp,,5686,,5686"
 > ```
 
-After executing `docker run` command you can open `http://{your-host-ip}:9090` in you browser (for ex. `http://localhost:9090`). You should see ThingsBoard login page.
+After executing `docker run` command you can open `http://{your-host-ip}:9090` in you browser (for ex. `http://localhost:9090`). You should see HAOBO ACH login page.
 Use the following default credentials:
 
 - **System Administrator**: sysadmin@thingsboard.org / sysadmin
@@ -62,7 +62,7 @@ You can always change passwords for each account in account profile page.
 
 You can detach from session terminal with `Ctrl-p` `Ctrl-q` - the container will keep running in the background.
 
-To reattach to the terminal (to see ThingsBoard logs) run:
+To reattach to the terminal (to see HAOBO ACH logs) run:
 
 ```
 $ docker attach mytb

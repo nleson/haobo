@@ -1,8 +1,8 @@
-Here is the list of commands that can be used to quickly upgrade ThingsBoard Edge on ${OS}
+Here is the list of commands that can be used to quickly upgrade HAOBO ACH Edge on ${OS}
 
-#### Prepare for Upgrading ThingsBoard Edge
+#### Prepare for Upgrading HAOBO ACH Edge
 
-Stop ThingsBoard Edge service:
+Stop HAOBO ACH Edge service:
 
 ```bash
 sudo systemctl stop tb-edge

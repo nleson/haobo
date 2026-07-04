@@ -1,4 +1,4 @@
-# ThingsBoard CE Frontend — Navigation & Testing Guide
+# HAOBO ACH CE Frontend — Navigation & Testing Guide
 
 ## 1. Quick Reference
 
@@ -374,7 +374,7 @@ Most pages follow a 3-file pattern per entity type inside `pages/<entity>/`:
 | `tb-markdown` | Markdown editor/viewer |
 | `tb-breadcrumb` | Breadcrumb navigation bar |
 | `tb-icon` | Custom icon component |
-| `tb-logo` | ThingsBoard logo |
+| `tb-logo` | HAOBO ACH logo |
 | `tb-copy-button` | Copy-to-clipboard button |
 | `tb-toggle-password` | Password visibility toggle |
 | `tb-file-input` | File upload input |

@@ -22,8 +22,8 @@ java -cp %jarfile% -Dloader.main=org.thingsboard.server.ThingsboardInstallApplic
                     org.springframework.boot.loader.launch.PropertiesLauncher
 
 if errorlevel 1 (
-   @echo ThingsBoard DB installation failed!
+   @echo HAOBO ACH DB installation failed!
    POPD
    exit /b %errorlevel%
    )
-@echo ThingsBoard DB installed successfully!
+@echo HAOBO ACH DB installed successfully!

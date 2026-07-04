@@ -1,6 +1,6 @@
-Here is the list of commands that can be used to quickly upgrade ThingsBoard Edge on Docker (Linux or macOS).
+Here is the list of commands that can be used to quickly upgrade HAOBO ACH Edge on Docker (Linux or macOS).
 
-#### Prepare for Upgrading ThingsBoard Edge
+#### Prepare for Upgrading HAOBO ACH Edge
 Set the terminal in the directory which contains the `docker-compose.yml` file and execute the following command
 to stop and remove currently running TB Edge container:
 
