@@ -16,7 +16,7 @@
 
 services:
 # Valkey cluster
-# The latest version of Valkey compatible with ThingsBoard is 8.0
+# The latest version of Valkey compatible with HAOBO ACH is 8.0
   valkey-node-0:
     image: bitnamilegacy/valkey-cluster:8.0
     volumes:
@@ -82,7 +82,7 @@ services:
       - 'VALKEY_CLUSTER_REPLICAS=1'
       - 'VALKEY_CLUSTER_CREATOR=yes'
 
-# ThingsBoard setup to use valkey-cluster
+# HAOBO ACH setup to use valkey-cluster
   tb-core1:
     env_file:
       - cache-valkey-cluster.env

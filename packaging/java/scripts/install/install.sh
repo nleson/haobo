@@ -55,9 +55,9 @@ su -s /bin/sh -c "java -cp ${jarfile} $JAVA_OPTS -Dloader.main=org.thingsboard.s
                     org.springframework.boot.loader.launch.PropertiesLauncher" "$run_user"
 
 if [ $? -ne 0 ]; then
-    echo "ThingsBoard installation failed!"
+    echo "HAOBO ACH installation failed!"
 else
-    echo "ThingsBoard installed successfully!"
+    echo "HAOBO ACH installed successfully!"
 fi
 
 exit $?

@@ -26,7 +26,7 @@
     </parent>
 
     <artifactId>monitoring</artifactId>
-    <name>ThingsBoard Monitoring Service</name>
+    <name>HAOBO ACH Monitoring Service</name>
     <packaging>jar</packaging>
 
     <properties>
@@ -38,7 +38,7 @@
         <pkg.name>tb-monitoring</pkg.name>
         <pkg.copyInstallScripts>false</pkg.copyInstallScripts>
         <pkg.win.dist>${project.build.directory}/windows</pkg.win.dist>
-        <pkg.implementationTitle>ThingsBoard Monitoring Service</pkg.implementationTitle>
+        <pkg.implementationTitle>HAOBO ACH Monitoring Service</pkg.implementationTitle>
         <pkg.mainClass>org.thingsboard.monitoring.ThingsboardMonitoringApplication</pkg.mainClass>
     </properties>
 

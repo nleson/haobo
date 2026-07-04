@@ -48,9 +48,9 @@ su -s /bin/sh -c "java -cp ${jarfile} $JAVA_OPTS -Dloader.main=org.thingsboard.s
                     org.springframework.boot.loader.launch.PropertiesLauncher" "$run_user"
 
 if [ $? -ne 0 ]; then
-    echo "ThingsBoard upgrade failed!"
+    echo "HAOBO ACH upgrade failed!"
 else
-    echo "ThingsBoard upgraded successfully!"
+    echo "HAOBO ACH upgraded successfully!"
 fi
 
 exit $?

@@ -41,7 +41,7 @@ if [ "$INSTALL_TB" == "true" ]; then
         loadDemo=false
     fi
 
-    echo "Starting ThingsBoard installation ..."
+    echo "Starting HAOBO ACH installation ..."
 
     exec java -cp ${jarfile} $JAVA_OPTS -Dloader.main=org.thingsboard.server.ThingsboardInstallApplication \
                         -Dinstall.load_demo=${loadDemo} \
@@ -51,7 +51,7 @@ if [ "$INSTALL_TB" == "true" ]; then
 
 elif [ "$UPGRADE_TB" == "true" ]; then
 
-    echo "Starting ThingsBoard upgrade ..."
+    echo "Starting HAOBO ACH upgrade ..."
 
 
     fromVersion="${FROM_VERSION// }"

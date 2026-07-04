@@ -57,7 +57,7 @@
             <exclusions>
                 <!-- These sjk-* artifacts pull in com.jrockit.mc / com.oracle.jmc / jdk.org.netbeans
                      system-scope dependencies with unresolved systemPath properties, which produces
-                     ERROR-level Maven warnings on every build. No ThingsBoard code imports from sjk,
+                     ERROR-level Maven warnings on every build. No HAOBO ACH code imports from sjk,
                      jmc, or netbeans profiler, so excluding them is safe. -->
                 <exclusion>
                     <groupId>org.perfkit.sjk.parsers</groupId>

@@ -27,9 +27,9 @@
     <artifactId>http</artifactId>
     <packaging>pom</packaging>
 
-    <name>ThingsBoard HTTP Transport Microservice</name>
+    <name>HAOBO ACH HTTP Transport Microservice</name>
     <url>https://thingsboard.io</url>
-    <description>ThingsBoard HTTP Transport Microservice</description>
+    <description>HAOBO ACH HTTP Transport Microservice</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

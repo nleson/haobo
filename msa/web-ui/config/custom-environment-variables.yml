@@ -25,9 +25,9 @@ server:
     enabled: "HTTP_COMPRESSION_ENABLED"
 thingsboard:
   enableProxy: "TB_ENABLE_PROXY"
-  # ThingsBoard node host
+  # HAOBO ACH node host
   host: "TB_HOST"
-  # ThingsBoard node port
+  # HAOBO ACH node port
   port: "TB_PORT"
 security:
   headers:

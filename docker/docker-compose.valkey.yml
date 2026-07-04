@@ -16,7 +16,7 @@
 
 services:
 # Valkey standalone
-# The latest version of Valkey compatible with ThingsBoard is 8.0
+# The latest version of Valkey compatible with HAOBO ACH is 8.0
   valkey:
     restart: always
     image: bitnamilegacy/valkey:8.0
@@ -28,7 +28,7 @@ services:
     volumes:
       - ./tb-node/valkey-data:/bitnami/valkey/data
 
-# ThingsBoard setup to use valkey-standalone
+# HAOBO ACH setup to use valkey-standalone
   tb-core1:
     env_file:
       - cache-valkey.env

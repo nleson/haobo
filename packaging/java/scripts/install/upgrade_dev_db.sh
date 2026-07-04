@@ -54,9 +54,9 @@ sudo -u "$run_user" -s /bin/sh -c "java -cp ${jarfile} $JAVA_OPTS -Dloader.main=
                     org.springframework.boot.loader.launch.PropertiesLauncher"
 
 if [ $? -ne 0 ]; then
-    echo "ThingsBoard DB installation failed!"
+    echo "HAOBO ACH DB installation failed!"
 else
-    echo "ThingsBoard DB installed successfully!"
+    echo "HAOBO ACH DB installed successfully!"
 fi
 
 exit $?

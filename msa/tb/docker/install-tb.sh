@@ -43,7 +43,7 @@ configfile=${pkg.name}.conf
 
 source "${CONF_FOLDER}/${configfile}"
 
-echo "Starting ThingsBoard installation ..."
+echo "Starting HAOBO ACH installation ..."
 
 set -e
 

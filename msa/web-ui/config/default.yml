@@ -25,9 +25,9 @@ server:
     enabled: "true"
 thingsboard:
   enableProxy: "false"
-  # ThingsBoard node host
+  # HAOBO ACH node host
   host: "localhost"
-  # ThingsBoard node port
+  # HAOBO ACH node port
   port: "8080"
 security:
   headers:

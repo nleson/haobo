@@ -26,7 +26,7 @@
     <artifactId>edqs</artifactId>
     <packaging>jar</packaging>
 
-    <name>ThingsBoard Entity Data Query Service Application</name>
+    <name>HAOBO ACH Entity Data Query Service Application</name>
     <url>https://thingsboard.io</url>
 
     <properties>
@@ -38,7 +38,7 @@
         <pkg.name>tb-edqs</pkg.name>
         <pkg.win.dist>${project.build.directory}/windows</pkg.win.dist>
         <pkg.copyInstallScripts>true</pkg.copyInstallScripts>
-        <pkg.implementationTitle>ThingsBoard Entity Data Query Service</pkg.implementationTitle>
+        <pkg.implementationTitle>HAOBO ACH Entity Data Query Service</pkg.implementationTitle>
         <pkg.mainClass>org.thingsboard.server.edqs.ThingsboardEdqsApplication</pkg.mainClass>
     </properties>
 
