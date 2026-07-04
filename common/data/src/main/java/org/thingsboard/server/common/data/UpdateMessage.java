@@ -26,15 +26,15 @@ public class UpdateMessage implements Serializable {
 
     @Schema(description = "'True' if new platform update is available.")
     private final boolean updateAvailable;
-    @Schema(description = "Current ThingsBoard version.")
+    @Schema(description = "Current HAOBO ACH version.")
     private final String currentVersion;
-    @Schema(description = "Latest ThingsBoard version.")
+    @Schema(description = "Latest HAOBO ACH version.")
     private final String latestVersion;
     @Schema(description = "Upgrade instructions URL.")
     private final String upgradeInstructionsUrl;
-    @Schema(description = "Current ThingsBoard version release notes URL.")
+    @Schema(description = "Current HAOBO ACH version release notes URL.")
     private final String currentVersionReleaseNotesUrl;
-    @Schema(description = "Latest ThingsBoard version release notes URL.")
+    @Schema(description = "Latest HAOBO ACH version release notes URL.")
     private final String latestVersionReleaseNotesUrl;
 
 }

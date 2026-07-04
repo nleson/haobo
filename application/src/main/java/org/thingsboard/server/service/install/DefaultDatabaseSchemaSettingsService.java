@@ -51,7 +51,7 @@ public class DefaultDatabaseSchemaSettingsService implements DatabaseSchemaSetti
 
         String product = getProductFromDb();
         if (!projectInfo.getProductType().equals(product)) {
-            onSchemaSettingsError(String.format("Upgrade failed: can't upgrade ThingsBoard %s database using ThingsBoard %s.", product, projectInfo.getProductType()));
+            onSchemaSettingsError(String.format("Upgrade failed: can't upgrade HAOBO ACH %s database using HAOBO ACH %s.", product, projectInfo.getProductType()));
         }
 
         String dbSchemaVersion = getDbSchemaVersion();

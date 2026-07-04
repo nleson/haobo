@@ -71,7 +71,7 @@ import java.util.Map;
 })
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @Schema(
-        description = "Base export container for ThingsBoard entities",
+        description = "Base export container for HAOBO ACH entities",
         discriminatorProperty = "entityType",
         discriminatorMapping = {
                 @DiscriminatorMapping(value = "CUSTOMER", schema = EntityExportData.CustomerExportData.class),
